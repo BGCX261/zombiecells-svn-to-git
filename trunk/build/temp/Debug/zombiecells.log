@@ -1,0 +1,23 @@
+﻿Build started 16.10.2010 19:35:10.
+     1>Project "D:\Study\zombiecells\zombiecells.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "D:\Study\zombiecells\build\temp\Debug\zombiecells.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Study\zombiecells\ /ID:\Study\zombiecells\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Study\zombiecells\build\temp\Debug\\" /Fd"D:\Study\zombiecells\build\temp\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt sources\main.cpp sources\ui\Graphics.cpp sources\ui\Idler.cpp sources\ui\Bitmap.cpp sources\ui\Window.cpp
+         Bitmap.cpp
+         Idler.cpp
+         Graphics.cpp
+     1>d:\study\zombiecells\sources\ui\graphics.cpp(161): error C2664: 'HRESULT ID2D1RenderTarget::CreateBitmapFromWicBitmap(IWICBitmapSource *,const D2D1_BITMAP_PROPERTIES *,ID2D1Bitmap **)' : cannot convert parameter 3 from 'ID2D1Bitmap *' to 'ID2D1Bitmap **'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         main.cpp
+         Generating Code...
+         Compiling...
+         Window.cpp
+     1>d:\study\zombiecells\sources\ui\window.cpp(106): error C2064: term does not evaluate to a function taking 1 arguments
+                 class does not define an 'operator()' or a user defined conversion operator to a pointer-to-function or reference-to-function that takes appropriate number of arguments
+         Generating Code...
+     1>Done Building Project "D:\Study\zombiecells\zombiecells.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.51
